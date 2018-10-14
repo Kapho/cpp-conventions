@@ -27,14 +27,14 @@ typedef double f64;
 ```
 
 ```
-struct type_name {
+struct Type_Name {
     int data;
 };
 ```
  
 ```
 void my_function_name(int arguments_n_such) {
-    type_name stuff;
+    Type_Name stuff;
     stuff.data = arguments_n_such;
 }
 ```
