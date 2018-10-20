@@ -28,12 +28,12 @@ typedef double f64;
 
 ```
 struct Type_Name {
-    int data;
+    i32 data;
 };
 ```
  
 ```
-void my_function_name(int arguments_n_such) {
+void my_function_name(i32 arguments_n_such) {
     Type_Name stuff;
     stuff.data = arguments_n_such;
 }
